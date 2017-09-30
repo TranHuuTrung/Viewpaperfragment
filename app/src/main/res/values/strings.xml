@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Viewpaperfragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab1_fragment">Ngoc Trinh va Hoang Kieu chia tay roi anh em ei</string>
+    <string name="tab2_fragment">Ngoc Trinh - hinh anh lam tan nat bao con tim may thang FA</string>
+    <string name="tab3_fragment">Ngoc Trinh Tha thinh tren may bay ba con oi</string>
+</resources>
