@@ -6,12 +6,34 @@
     tools:context="com.example.admin.viewpaperfragment.TabFragment3">
 
     <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/ngoctrinh_4"
+        />
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="Tab 3"
+        android:padding="5dp"
+        android:paddingTop="15dp"
+        android:text="@string/tieude_ngoctrinhdep"
         android:textAppearance="?android:attr/textAppearanceLarge"/>
-
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:padding="10dp"
+         android:text="@string/ngoctrinhdep"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/ngoctrinhdep2"/>
+    </LinearLayout>
 </FrameLayout>

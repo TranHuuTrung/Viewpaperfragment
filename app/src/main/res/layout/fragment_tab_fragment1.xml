@@ -17,16 +17,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="0.8"
-            android:src="@drawable/trenmaybay"/>
+            android:src="@drawable/ngoctrinh_hoangkieu"/>
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:inputType="textPersonName"
-            android:paddingTop="10dp"
-            android:text="Ngoc Trinh va Hoang Kieu chia tay"
+            android:text="@string/title1"
             android:ems="10"
-            android:layout_gravity="center"
+            android:gravity="center"
             android:textColor="@color/colorAccent"
             android:id="@+id/editText" />
 
@@ -40,49 +39,48 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="149dp"
-                android:layout_height="wrap_content"
-                android:paddingTop="10dp"
-                android:src="@drawable/trenmaybay"/>
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:paddingTop="0dp"
+                android:src="@drawable/ngoctrinh_3"/>
 
             <TextView
+                android:id="@+id/textView2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:paddingTop="50dp"
-                android:text="Ngoc Trinh tren may bay."
-                android:ems="10"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill_horizontal"
+                android:ems="15"
                 android:gravity="center"
-                android:layout_gravity="fill_horizontal" />
+                android:text="@string/title2" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/btn_tab_3"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="151dp"
-                android:layout_height="wrap_content"
-                android:paddingTop="10dp"
-                android:src="@drawable/trenmaybay"/>
+                android:id="@+id/imageView"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:paddingTop="0dp"
+                android:src="@drawable/ngoctrinh_2" />
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textPersonName"
-                android:paddingTop="50dp"
-                android:text="Ngoc Trinh va Hoang Kieu"
-                android:ems="10"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/title3"
+                android:textSize="15dp"
                 android:textAlignment="center" />
 
         </LinearLayout>
